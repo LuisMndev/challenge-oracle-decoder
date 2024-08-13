@@ -21,5 +21,5 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar texto 
 5. **Validación de entrada**: Si se ingresan caracteres no válidos, se mostrará una alerta y el campo de texto se limpiará.
 
 
-## Autores
+## Autor
 - **Luis Miranda Navarrete** - [@LuisMndev](https://github.com/LuisMndev) - Desarrollador principal del proyecto.
