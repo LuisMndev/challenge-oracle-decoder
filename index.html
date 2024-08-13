@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Encriptador de Texto</title>
+    </head>
+
+    <body>
+
+
+        <div class="overlap1">
+            <div class="overlap-group1">
+                <div class="logo-fondo-alura1">
+                    <img class="logo-fondo-alura1" src="img/vectorMancha.png" alt="fondologo" />
+                </div>
+                <div class="logo-alura">
+                    <img class="logo-alura" src="img/LogoAlura.png" alt="logoAlura" />
+                </div>
+            </div>
+        </div>
+
+
+        <div class="encriptador">
+
+            <div class="titulo">
+                <img class="codigo-secreto" src="img/Codigo Secreto.png" />
+            </div>
+
+            <div class="overlap">
+                <div class="overlap-group">
+                    <img class="tv" src="img/tv.png" />
+                    <img class="r" src="img/r.gif" />
+                </div>
+            </div>
+
+            
+
+            <div class="overlap2">
+                <div class="overlap-group2">
+                    <div class="ingresarTexto"></div>
+                    <label for="inputText">Texto a encriptar:</label>
+                    <input type="text" size="42" maxlength="30" placeholder="Ingrese su texto aquí" id="inputText">
+                </div>
+            </div>
+
+            <div class="overlap3">
+                <div class="overlap-group3">
+                    <label for="outputText">Texto encriptado:</label>
+                    <textarea id="outputText" rows="3" cols="41" readonly style="resize: none;"></textarea>
+                </div>
+            </div>
+
+
+
+            <div class="overlap4">
+                <div class="overlap-group4">
+                    <div class="boton-encriptar">
+                        <button type="button" onclick="encriptar()">Encriptar</button>
+                    </div>
+                    <div class="boton-copiar">
+                        <button type="button" onclick="copiarTexto()">Copiar</button>
+                    </div>
+                    <div class="boton-desencriptar">
+                        <button type="button" onclick="desencriptar()">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <p>Luis Miranda Navarrete &copy; 2024</p>
+        </footer>
+    <script src="app.js"></script>    
+    </body>
+
+</html>

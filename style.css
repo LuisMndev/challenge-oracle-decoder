@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden; /* Evita el scroll */
+    background-image: url(img/Fondo.png);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    position: relative;
+}
+
+label {
+    color: white; /* Cambiar el color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Añadir un fondo semitransparente */
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block; /* Asegura que esté sobre el input */
+}
+
+.encriptador input[type="text"],
+.encriptador textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.encriptador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1; /* Asegura que se expanda según el espacio disponible */
+    justify-content: center; /* Centra el contenido verticalmente */
+    position: relative;
+}
+
+.encriptador .titulo {
+    margin-bottom: 20px;
+}
+
+.encriptador .overlap {
+    position: relative;
+    width: 80%;
+    max-width: 650px;
+    height: auto;
+    margin-bottom: -60px;
+}
+
+.encriptador .overlap-group {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.encriptador .tv {
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+}
+
+.encriptador .r {
+    position: absolute;
+    width: 55%;
+    height: auto;
+    top: 30.6%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    border-radius: 52px;
+    opacity: 0.8; /* Valor de opacidad corregido */
+}
+.overlap1 {
+        position: absolute;
+        top: 0px;
+        left: 35px;
+        width: 150px;
+        height: auto;
+        z-index: 10;
+}
+
+.logo-fondo-alura1, .logo-alura {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-alura {
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    width: 111px;
+    height: 42px;
+}
+
+.encriptador .overlap2, .encriptador .overlap3 {
+    width: 80%;
+    max-width: 530px;
+    margin: 5px 0;
+}
+
+.encriptador .overlap-group2, .encriptador .overlap-group3 {
+    width: 100%;
+}
+
+#inputText {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#outputText {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Contenedor de botones */
+.encriptador .overlap4 {
+    width: 80%;
+    max-width: 530px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+}
+
+/* Botones */
+.encriptador .boton-encriptar,
+.encriptador .boton-copiar,
+.encriptador .boton-desencriptar {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+footer {
+    position: fixed;
+    bottom: -5px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    color: white;
+    padding: 5px 0;
+    font-size: 14px;
+}
